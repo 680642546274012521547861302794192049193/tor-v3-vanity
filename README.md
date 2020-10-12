@@ -28,8 +28,16 @@ Now supports multiple prefixes!
   - `cat mykeys/myprefixwhatever.onion > /var/lib/tor/hidden_service/hs_ed25519_secret_key`
 
 ## Bench
-On my 1070ti, I get the following time estimates:
+3xQuadro RTX 6000
+| Prefix Length | Time       |
+| ------------- | ---------- |
+|             5 | 20 seconds |
+|             6 | 7 minutes  |
+|             7 | 3.5 hours  |
+|             8 | 5 days     |
+|             9 | 22.5 weeks |
 
+1070 Ti
 | Prefix Length | Time       |
 | ------------- | ---------- |
 |             5 | 7 minutes  |
