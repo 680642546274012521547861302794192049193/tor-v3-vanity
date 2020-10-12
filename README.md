@@ -10,7 +10,7 @@ Now supports multiple prefixes!
 
 ## Installation
 
-- [Install Rust](https://rustup.rs)
+- [Install Rust Nightly](https://rustup.rs)
 - [Install Cuda](https://developer.nvidia.com/cuda-downloads)
 - `rustup target add nvptx64-nvidia-cuda`
 - `cargo install ptx-linker`
